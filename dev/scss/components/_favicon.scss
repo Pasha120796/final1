@@ -1,0 +1,16 @@
+.favicon{
+    &--hover {
+        &:hover {
+            .favicon--white path , .favicon--blue path  {
+                fill: $hover-accent;
+            }
+        }
+    }
+    &--white path{
+        fill: white;
+
+    }
+    &--blue path{
+        fill: $active-regular;
+    }
+}
